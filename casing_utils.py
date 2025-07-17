@@ -106,3 +106,5 @@ def pad_for_casing_and_data(
     hx2b = utils.unpack_widths([(csx2, npadx, pfx2)])
 
     return np.hstack([hx1a, hx1b, hx2a, hx2b])
+
+
